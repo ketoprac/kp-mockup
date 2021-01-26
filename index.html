@@ -11,6 +11,8 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <!-- Animation on Scroll CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -116,7 +118,11 @@
     <div class="about-wrapper">
       <div class="container mb-5">
         <div class="row justify-content-center">
-          <div class="col col-lg-6">
+          <div
+            class="col col-lg-6"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             <h1>Tentang Kami</h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
@@ -124,7 +130,11 @@
               commodi architecto atque ex amet in numquam quaerat magni. Ad?
             </p>
           </div>
-          <div class="col col-lg-5">
+          <div
+            class="col col-lg-5"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             <div class="img-zoom">
               <img
                 src="./img/christopher-jolly-GqbU78bdJFM-unsplash.jpg"
@@ -136,7 +146,11 @@
       </div>
       <div class="container mb-5">
         <div class="row justify-content-center">
-          <div class="col col-lg-5">
+          <div
+            class="col col-lg-5"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             <div class="img-zoom">
               <img
                 src="./img/joseph-greve-Xdk7tFHP6kU-unsplash.jpg"
@@ -144,7 +158,11 @@
               />
             </div>
           </div>
-          <div class="col col-lg-6">
+          <div
+            class="col col-lg-6"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             <h1>Kenapa Kamar Pelajar?</h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
@@ -161,7 +179,7 @@
       <div class="container">
         <h1 class="text-center mb-5">Blog Kami</h1>
         <div class="row justify-content-center">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1500">
             <div class="card" style="width: 18rem">
               <img
                 src="./img/joseph-greve-Xdk7tFHP6kU-unsplash.jpg"
@@ -178,7 +196,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1700">
             <div class="card" style="width: 18rem">
               <img
                 src="./img/christopher-jolly-GqbU78bdJFM-unsplash.jpg"
@@ -195,7 +213,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1900">
             <div class="card" style="width: 18rem">
               <img
                 src="./img/kam-idris-kyt0PkBSCNQ-unsplash.jpg"
@@ -235,6 +253,9 @@
       </div>
     </footer>
     <!-- End of Footer -->
+    <!-- Back to Top Button -->
+    <button id="topButton"><i class="fas fa-arrow-up"></i></button>
+    <!-- End of Back to Top Button -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -250,6 +271,11 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+      // Initialize Animation on Scroll
+      AOS.init();
+    </script>
   </body>
 </html>
