@@ -121,6 +121,12 @@ footer a:hover {
 }
 
 /* Responsiveness */
+@media (min-width: 1178px) {
+  .card-wrapper button {
+    margin-left: 5px
+  }  
+}
+
 @media (min-width: 641px) and (max-width: 1177px) {
   .card-wrapper button,
   select {
